@@ -1,0 +1,25 @@
+{
+  "name": "germanleap-lea-backend",
+  "version": "1.0.0",
+  "description": "Backend API for GermanLeap Lea AI Tutor",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": ["german", "tutor", "ai", "education"],
+  "author": "GermanLeap",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "openai": "^4.24.0",
+    "anthropic": "^0.9.0",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
