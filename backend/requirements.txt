@@ -1,0 +1,33 @@
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+pydantic==2.5.3
+pydantic-settings==2.1.0
+openai==1.10.0
+google-generativeai==0.3.2
+groq==0.4.1
+python-dotenv==1.0.0
+python-multipart==0.0.6
+aiofiles==23.2.1
+passlib[bcrypt]==1.7.4
+# FastAPI and server dependencies
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+python-multipart==0.0.6
+
+# Pydantic for data validation
+pydantic==2.5.3
+pydantic-settings==2.1.0
+
+# AI Provider SDKs
+openai==1.10.0
+google-generativeai==0.3.2
+groq==0.4.1
+
+# Password hashing
+bcrypt==4.1.2
+
+# CORS support
+python-dotenv==1.0.0
+
+# Optional: for better async support
+aiofiles==23.2.1
